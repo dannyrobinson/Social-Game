@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2320819D2D0F9643BEFCD0B8 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E23C6C8B59F123D7DAD68CB /* BuddyBuildSDK.framework */; };
+		64F9055E5EE15F0CA4DEE2B0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F3B7C4EB72A78B9363C4B1 /* CoreText.framework */; };
 		9922AD611C043F0B00ECCCF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922AD601C043F0B00ECCCF3 /* AppDelegate.swift */; };
 		9922AD631C043F0B00ECCCF3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9922AD621C043F0B00ECCCF3 /* GameScene.sks */; };
 		9922AD651C043F0B00ECCCF3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922AD641C043F0B00ECCCF3 /* GameScene.swift */; };
@@ -16,6 +18,9 @@
 		9922AD6F1C043F0B00ECCCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9922AD6D1C043F0B00ECCCF3 /* LaunchScreen.storyboard */; };
 		9922AD7A1C043F0B00ECCCF3 /* Social_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922AD791C043F0B00ECCCF3 /* Social_GameTests.swift */; };
 		9922AD851C043F0B00ECCCF3 /* Social_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922AD841C043F0B00ECCCF3 /* Social_GameUITests.swift */; };
+		B36FE0ECC949C84B85AB3E2C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BBE1D41C854189C2FF98E2 /* SystemConfiguration.framework */; };
+		C4337E5AEBE7C67AD5B5B3B3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7F2BDBF9CAD5E4C33E331F /* CoreTelephony.framework */; };
+		CF8290A48F06BA2F7AD5706E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA6B26CA04AFF093DF4929D /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00BBE1D41C854189C2FF98E2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1E23C6C8B59F123D7DAD68CB /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		5C7ABF08F466A9913718F0A4 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		8C7F2BDBF9CAD5E4C33E331F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		9922AD5D1C043F0B00ECCCF3 /* Social Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9922AD601C043F0B00ECCCF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9922AD621C043F0B00ECCCF3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +60,8 @@
 		9922AD801C043F0B00ECCCF3 /* Social GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9922AD841C043F0B00ECCCF3 /* Social_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_GameUITests.swift; sourceTree = "<group>"; };
 		9922AD861C043F0B00ECCCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F3B7C4EB72A78B9363C4B1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ABA6B26CA04AFF093DF4929D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2320819D2D0F9643BEFCD0B8 /* BuddyBuildSDK.framework in Frameworks */,
+				CF8290A48F06BA2F7AD5706E /* AssetsLibrary.framework in Frameworks */,
+				64F9055E5EE15F0CA4DEE2B0 /* CoreText.framework in Frameworks */,
+				C4337E5AEBE7C67AD5B5B3B3 /* CoreTelephony.framework in Frameworks */,
+				B36FE0ECC949C84B85AB3E2C /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BE83F120C6CDE82C956E50A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E23C6C8B59F123D7DAD68CB /* BuddyBuildSDK.framework */,
+				ABA6B26CA04AFF093DF4929D /* AssetsLibrary.framework */,
+				A8F3B7C4EB72A78B9363C4B1 /* CoreText.framework */,
+				8C7F2BDBF9CAD5E4C33E331F /* CoreTelephony.framework */,
+				00BBE1D41C854189C2FF98E2 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9922AD541C043F0B00ECCCF3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				9922AD781C043F0B00ECCCF3 /* Social GameTests */,
 				9922AD831C043F0B00ECCCF3 /* Social GameUITests */,
 				9922AD5E1C043F0B00ECCCF3 /* Products */,
+				3BE83F120C6CDE82C956E50A /* Frameworks */,
+				5C7ABF08F466A9913718F0A4 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -408,11 +438,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Social Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.socialGame.Social-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -422,11 +458,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Social Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.socialGame.Social-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
