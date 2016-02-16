@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Social Game.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Social GameTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Social GameUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Stripe.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>59C162983A98E308CF06295BD4EF01A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7D2A55B389403675B719A9CA0FF4888</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C1476DF2387F11062D1C04D97A504DE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CFB557AF90CB038B499A4B5E24B6FA97</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
