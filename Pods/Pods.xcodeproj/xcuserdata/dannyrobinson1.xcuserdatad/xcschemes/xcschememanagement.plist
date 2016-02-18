@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Branch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Social Game.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +32,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>59C162983A98E308CF06295BD4EF01A5</key>
+		<key>3996B3F0E6269895AE076E77DE80B5A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6240AB078FB1543EB98562D1F89F5BC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C1476DF2387F11062D1C04D97A504DE2</key>
+		<key>CFB557AF90CB038B499A4B5E24B6FA97</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CFB557AF90CB038B499A4B5E24B6FA97</key>
+		<key>E7953C4E7ECDEF2F32A1134FF4470108</key>
 		<dict>
 			<key>primary</key>
 			<true/>

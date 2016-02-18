@@ -20,6 +20,7 @@
 		9922AD6F1C043F0B00ECCCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9922AD6D1C043F0B00ECCCF3 /* LaunchScreen.storyboard */; };
 		9922AD7A1C043F0B00ECCCF3 /* Social_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922AD791C043F0B00ECCCF3 /* Social_GameTests.swift */; };
 		9922AD851C043F0B00ECCCF3 /* Social_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922AD841C043F0B00ECCCF3 /* Social_GameUITests.swift */; };
+		99B443B91C76494C0068F5F8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99B443B81C76494C0068F5F8 /* Info.plist */; };
 		99FBF3A91C73C2F5000FF7C3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FBF3A81C73C2F5000FF7C3 /* CFNetwork.framework */; };
 		B36FE0ECC949C84B85AB3E2C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BBE1D41C854189C2FF98E2 /* SystemConfiguration.framework */; };
 		C4337E5AEBE7C67AD5B5B3B3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7F2BDBF9CAD5E4C33E331F /* CoreTelephony.framework */; };
@@ -71,6 +72,7 @@
 		9922AD801C043F0B00ECCCF3 /* Social GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9922AD841C043F0B00ECCCF3 /* Social_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_GameUITests.swift; sourceTree = "<group>"; };
 		9922AD861C043F0B00ECCCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B443B81C76494C0068F5F8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99FBF3A81C73C2F5000FF7C3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A8F3B7C4EB72A78B9363C4B1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		ABA6B26CA04AFF093DF4929D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -144,6 +146,7 @@
 		9922AD541C043F0B00ECCCF3 = {
 			isa = PBXGroup;
 			children = (
+				99B443B81C76494C0068F5F8 /* Info.plist */,
 				9922AD5F1C043F0B00ECCCF3 /* Social Game */,
 				9922AD781C043F0B00ECCCF3 /* Social GameTests */,
 				9922AD831C043F0B00ECCCF3 /* Social GameUITests */,
@@ -310,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B443B91C76494C0068F5F8 /* Info.plist in Resources */,
 				9922AD631C043F0B00ECCCF3 /* GameScene.sks in Resources */,
 				9922AD6F1C043F0B00ECCCF3 /* LaunchScreen.storyboard in Resources */,
 				9922AD6C1C043F0B00ECCCF3 /* Assets.xcassets in Resources */,

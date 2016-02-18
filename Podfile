@@ -5,6 +5,7 @@ target 'Social Game' do
 pod 'Fabric'
 pod 'Stripe'
 pod 'Calabash'
+pod 'Branch'
 end
 
 target 'Social GameTests' do
