@@ -273,7 +273,7 @@
 				TargetAttributes = {
 					9922AD5C1C043F0B00ECCCF3 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = KPRNXX4S3V;
+						DevelopmentTeam = 2PC97QGDCM;
 					};
 					9922AD741C043F0B00ECCCF3 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -612,9 +612,9 @@
 				);
 				INFOPLIST_FILE = "Social Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.perch.friendornot;
+				PRODUCT_BUNDLE_IDENTIFIER = co.redhandapp.friendornot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1de66fdb-03b1-4343-9302-81918f61f349";
+				PROVISIONING_PROFILE = "c9565d13-aece-4e52-9429-500b26fd4e7b";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
@@ -632,9 +632,9 @@
 				);
 				INFOPLIST_FILE = "Social Game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.perch.friendornot;
+				PRODUCT_BUNDLE_IDENTIFIER = co.redhandapp.friendornot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1de66fdb-03b1-4343-9302-81918f61f349";
+				PROVISIONING_PROFILE = "c9565d13-aece-4e52-9429-500b26fd4e7b";
 				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
