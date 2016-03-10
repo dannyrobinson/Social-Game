@@ -28,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Override point for customization after application launch.
         return true
+        Instabug.startWithToken("467f11375b15429e9650210e0415082d", invocationEvent: IBGInvocationEvent.Shake)
     }
 
     func applicationWillResignActive(application: UIApplication) {

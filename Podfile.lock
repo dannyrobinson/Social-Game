@@ -2,6 +2,7 @@ PODS:
   - Branch (0.11.16)
   - Calabash (0.18.0)
   - Fabric (1.6.5)
+  - Instabug (5.1.2)
   - Stripe (6.2.0):
     - Stripe/Core (= 6.2.0)
   - Stripe/Core (6.2.0)
@@ -10,14 +11,16 @@ DEPENDENCIES:
   - Branch
   - Calabash
   - Fabric
+  - Instabug
   - Stripe
 
 SPEC CHECKSUMS:
   Branch: 6cdaad57d256fc823a30f725256e2494e91e8c67
   Calabash: 88bb47cd004e764da3015229cbda1a8653c9357a
   Fabric: 338ffd3c2afcab120638907b4251189de9ad17b3
+  Instabug: c315abe1a1c4cbd3ea1cc6ec8f9954d6c5371c39
   Stripe: 275524137e6c4cc1058f6d32ece248adf30a21f9
 
-PODFILE CHECKSUM: 9b4e32e7d33fafd3fbde99bae6f82ac04392f4b8
+PODFILE CHECKSUM: 52e470204dd06e5c19ed74992507b37e661913ad
 
 COCOAPODS: 1.0.0.beta.3

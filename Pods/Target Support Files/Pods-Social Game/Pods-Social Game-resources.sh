@@ -65,6 +65,7 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "Instabug/Instabug.bundle"
   install_resource "Stripe/Stripe/Resources/Images/stp_card_amex.png"
   install_resource "Stripe/Stripe/Resources/Images/stp_card_amex@2x.png"
   install_resource "Stripe/Stripe/Resources/Images/stp_card_amex@3x.png"
@@ -98,6 +99,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "Stripe/Stripe/Resources/Images"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "Instabug/Instabug.bundle"
   install_resource "Stripe/Stripe/Resources/Images/stp_card_amex.png"
   install_resource "Stripe/Stripe/Resources/Images/stp_card_amex@2x.png"
   install_resource "Stripe/Stripe/Resources/Images/stp_card_amex@3x.png"

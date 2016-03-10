@@ -6,6 +6,7 @@ pod 'Fabric'
 pod 'Stripe'
 pod 'Calabash'
 pod 'Branch'
+pod 'Instabug'
 end
 
 target 'Social GameTests' do

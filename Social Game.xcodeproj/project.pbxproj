@@ -20,6 +20,10 @@
 		9922AD6F1C043F0B00ECCCF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9922AD6D1C043F0B00ECCCF3 /* LaunchScreen.storyboard */; };
 		9922AD7A1C043F0B00ECCCF3 /* Social_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922AD791C043F0B00ECCCF3 /* Social_GameTests.swift */; };
 		9922AD851C043F0B00ECCCF3 /* Social_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9922AD841C043F0B00ECCCF3 /* Social_GameUITests.swift */; };
+		99BA5BB51C9111DA003CE4ED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BA5BB41C9111DA003CE4ED /* AVFoundation.framework */; };
+		99BA5BB71C9111E1003CE4ED /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BA5BB61C9111E1003CE4ED /* CoreMotion.framework */; };
+		99BA5BB91C9111E8003CE4ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BA5BB81C9111E8003CE4ED /* CoreGraphics.framework */; };
+		99BA5BBB1C9111FF003CE4ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BA5BBA1C9111FF003CE4ED /* UIKit.framework */; };
 		99FBF3A91C73C2F5000FF7C3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FBF3A81C73C2F5000FF7C3 /* CFNetwork.framework */; };
 		B36FE0ECC949C84B85AB3E2C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BBE1D41C854189C2FF98E2 /* SystemConfiguration.framework */; };
 		C4337E5AEBE7C67AD5B5B3B3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7F2BDBF9CAD5E4C33E331F /* CoreTelephony.framework */; };
@@ -71,6 +75,10 @@
 		9922AD801C043F0B00ECCCF3 /* Social GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9922AD841C043F0B00ECCCF3 /* Social_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_GameUITests.swift; sourceTree = "<group>"; };
 		9922AD861C043F0B00ECCCF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BA5BB41C9111DA003CE4ED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		99BA5BB61C9111E1003CE4ED /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		99BA5BB81C9111E8003CE4ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99BA5BBA1C9111FF003CE4ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99FBF3A81C73C2F5000FF7C3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		A8F3B7C4EB72A78B9363C4B1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		ABA6B26CA04AFF093DF4929D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -83,12 +91,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BA5BBB1C9111FF003CE4ED /* UIKit.framework in Frameworks */,
+				B36FE0ECC949C84B85AB3E2C /* SystemConfiguration.framework in Frameworks */,
+				C4337E5AEBE7C67AD5B5B3B3 /* CoreTelephony.framework in Frameworks */,
+				99BA5BB91C9111E8003CE4ED /* CoreGraphics.framework in Frameworks */,
+				99BA5BB71C9111E1003CE4ED /* CoreMotion.framework in Frameworks */,
+				99BA5BB51C9111DA003CE4ED /* AVFoundation.framework in Frameworks */,
 				99FBF3A91C73C2F5000FF7C3 /* CFNetwork.framework in Frameworks */,
 				2320819D2D0F9643BEFCD0B8 /* BuddyBuildSDK.framework in Frameworks */,
 				CF8290A48F06BA2F7AD5706E /* AssetsLibrary.framework in Frameworks */,
 				64F9055E5EE15F0CA4DEE2B0 /* CoreText.framework in Frameworks */,
-				C4337E5AEBE7C67AD5B5B3B3 /* CoreTelephony.framework in Frameworks */,
-				B36FE0ECC949C84B85AB3E2C /* SystemConfiguration.framework in Frameworks */,
 				0C79FCB8D24A71D4C7748027 /* libPods-Social Game.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +140,10 @@
 		3BE83F120C6CDE82C956E50A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99BA5BBA1C9111FF003CE4ED /* UIKit.framework */,
+				99BA5BB81C9111E8003CE4ED /* CoreGraphics.framework */,
+				99BA5BB61C9111E1003CE4ED /* CoreMotion.framework */,
+				99BA5BB41C9111DA003CE4ED /* AVFoundation.framework */,
 				99FBF3A81C73C2F5000FF7C3 /* CFNetwork.framework */,
 				1E23C6C8B59F123D7DAD68CB /* BuddyBuildSDK.framework */,
 				ABA6B26CA04AFF093DF4929D /* AssetsLibrary.framework */,
