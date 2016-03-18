@@ -226,6 +226,7 @@
 				9922AD5B1C043F0B00ECCCF3 /* Resources */,
 				D9FBD928A7FDBCA4C4F285C6 /* Embed Pods Frameworks */,
 				6B9BA337BFC5C8E058DD48EF /* Copy Pods Resources */,
+				994194671C9B92A900DF6F21 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -289,6 +290,7 @@
 				TargetAttributes = {
 					9922AD5C1C043F0B00ECCCF3 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2PC97QGDCM;
 					};
 					9922AD741C043F0B00ECCCF3 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -423,6 +425,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social GameUITests/Pods-Social GameUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		994194671C9B92A900DF6F21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 51bdfc02b138faee377529d5c49f58bbeca0085e 35943a0349e3a6786d2e07fa38af98931d6a0395b2787e3a51044f5be88a9f83";
 		};
 		A2BD0F05D89F9A44B70AF37A /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

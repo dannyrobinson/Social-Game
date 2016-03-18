@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -27,7 +30,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         
         Instabug.startWithToken("467f11375b15429e9650210e0415082d", invocationEvent: IBGInvocationEvent.Shake)
-
+        Fabric.with([Crashlytics.self])
+        
         // Override point for customization after application launch.
         return true
     }

@@ -3,6 +3,7 @@
 
 target 'Social Game' do
 pod 'Fabric'
+pod 'Crashlytics'
 pod 'Stripe'
 pod 'Calabash'
 pod 'Branch'
